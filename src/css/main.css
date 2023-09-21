@@ -10,11 +10,11 @@
    -ms-transform: scaleY(0);
    -o-transform: scaleY(0);
    transform-origin: top;
-   transition: all 0.2 ease-in-out;
-   -webkit-transition: all 0.2 ease-in-out;
-   -moz-transition: all 0.2 ease-in-out;
-   -ms-transition: all 0.2 ease-in-out;
-   -o-transition: all 0.2 ease-in-out;
+   transition: all 0.2s ease-in-out;
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
 }
 
 .navbar.color-active {
@@ -42,6 +42,10 @@
    font-weight: bold;
 }
 
+.hero p {
+   --animate-delay: 0.5s;
+}
+
 .gallery img {
    height: 230px;
 }
@@ -56,15 +60,15 @@
 }
 
 .faq .accordion .accordion-item .accordion-header {
-    line-height: 2;
+   line-height: 2;
 }
 
 .faq .accordion .accordion-button:focus {
-    box-shadow: 0;
+   box-shadow: 0;
 }
 
 .footer {
-    background-color: #212529;
+   background-color: #212529;
 }
 
 .footer .row:nth-child(2) {
