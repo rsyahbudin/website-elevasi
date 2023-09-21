@@ -10,9 +10,9 @@ const FooterComp = () => {
                   <h3 className="fw-bold text-white"> Elevasi</h3>
                </Col>
                <Col className="text-end">
-                  <i class="fa-brands fa-instagram text-white fs-1 mx-lg-3 mx-2"></i>
-                  <i class="fa-brands fa-facebook text-white fs-1 mx-lg-3 mx-2"></i>
-                  <i class="fa-brands fa-whatsapp text-white fs-1 mx-lg-3 mx-2"></i>
+                  <a href="https://www.instagram.com/elevasi.kontraktor/"><i class="fa-brands fa-instagram text-white fs-1 mx-lg-3 mx-2"></i></a>
+                  <a href="https://www.instagram.com/elevasi.kontraktor/"><i class="fa-brands fa-facebook text-white fs-1 mx-lg-3 mx-2"></i></a>
+                  <a href="https://wa.link/i8ydaa"><i class="fa-brands fa-whatsapp text-white fs-1 mx-lg-3 mx-2"></i></a>
                </Col>
             </Row>
             <Row>
