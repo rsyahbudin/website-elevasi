@@ -7,15 +7,15 @@ const ServiceComp = () => {
          <Container>
             <Row className="mb-5">
                <Col>
-                  <h1 className="text-center fw-bold">Services</h1>
-                  <p className="text-center">
+                  <h1 className="text-center fw-bold" data-aos="fade-up">Services</h1>
+                  <p className="text-center" data-aos="fade-up" data-aos-delay="200">
                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                      Cumque, magni.
                   </p>
                </Col>
             </Row>
             <Row className="row-cols-lg-3 row-cols-md-2 row-cols-1 justify-content-center">
-               <Col className="text-center py-5 px-3 ">
+               <Col className="text-center py-5 px-3" data-aos="fade-up" data-aos-delay="400">
                   <i class="fa-solid fa-coins fs-2 mb-3"></i>
                   <h5 className="fw-bold">Harga Terjangkau</h5>
                   <p>
@@ -23,14 +23,14 @@ const ServiceComp = () => {
                   </p>
                </Col>
                <Col className="text-center">
-                  <i class="fa-solid fa-coins fs-2 mb-3 px-3 "></i>
+                  <i class="fa-solid fa-coins fs-2 mb-3 px-3 " data-aos="fade-up" data-aos-delay="600"></i>
                   <h5 className="fw-bold">Harga Terjangkau</h5>
                   <p>
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
                </Col>
                <Col className="text-center">
-                  <i class="fa-solid fa-coins fs-2 mb-3 px-3 "></i>
+                  <i class="fa-solid fa-coins fs-2 mb-3 px-3 " data-aos="fade-up" data-aos-delay="800"></i>
                   <h5 className="fw-bold">Harga Terjangkau</h5>
                   <p>
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
