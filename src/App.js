@@ -15,7 +15,7 @@ function App() {
          <GalleryComp />
          <ServiceComp />
          <FaqComp />
-         {/* <FooterComp /> */}
+         <FooterComp />
          {/* Content */}
       </div>
    );
