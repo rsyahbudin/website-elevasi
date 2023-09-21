@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const ServiceComp = () => {
    return (
-      <div className="services min-vh-100 d-flex align-items-center">
+      <div className="services min-vh-100 d-flex align-items-center" id="service">
          <Container>
             <Row className="mb-5">
                <Col>

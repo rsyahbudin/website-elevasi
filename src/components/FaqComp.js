@@ -3,7 +3,7 @@ import { Container, Row, Col, Accordion } from "react-bootstrap";
 
 const FaqComp = () => {
    return (
-      <div className="faq">
+      <div className="faq" id="faq">
          <Container>
             <Row className="mb-5">
                <Col>

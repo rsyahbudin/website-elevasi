@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 
 const HeroComp = () => {
    return (
-      <div className="hero min-vh-100 w-100">
+      <div className="hero min-vh-100 w-100" id="home">
          <Container>
             <Row>
                 <Col>

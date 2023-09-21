@@ -9,7 +9,7 @@ import Gallery6 from "../assets/img/gallery/gallery-6.jpg";
 
 const GalleryComp = () => {
    return (
-      <div className="gallery min-vh-100 d-flex align-items-center">
+      <div className="gallery min-vh-100 d-flex align-items-center" id="gallery">
          <Container>
             <Row className="row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-sm-1 g-3">
                <Col>
